@@ -94,4 +94,12 @@
         public DateTime EnrolledAt { get; set; }
     }
 
+    public class TestimonialReadDto
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public string Text { get; set; }
+    }
+
 }

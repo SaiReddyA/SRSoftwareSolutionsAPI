@@ -66,5 +66,13 @@
         public Guid CourseId { get; set; }
         public DateTime EnrolledAt { get; set; } = DateTime.UtcNow;
     }
+    public class Testimonial
+    {
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public string Text { get; set; }
+    }
+
 
 }
